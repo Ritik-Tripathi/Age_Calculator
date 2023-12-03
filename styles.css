@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 550;
+    /* background-color: #007bff; */
+    background-color:green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  #result {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  
